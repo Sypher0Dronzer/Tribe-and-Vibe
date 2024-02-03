@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link rel="stylesheet" href="css/imports.css" />
+    <link rel="stylesheet" href="css/account.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="image-div"></div>
+      <div class="account-div">
+        <div class="login-div">
+          <h1>Login</h1>
+          <input placeholder="Enter Email" type="email" />
+          <input placeholder="Enter Password" type="password" />
+          <a href="">Forgot Password?</a>
+          <button class="btn orange">Sign In</button>
+          <button class="btn white" onclick="toggleAccount()">Register</button>
+        </div>
+        <div class="register-div">
+          <h1>Register</h1>
+          <input type="text" placeholder="Enter your name" />
+          <input placeholder="Enter email" type="email" />
+          <input placeholder="Create Password" type="password" />
+          <input placeholder="Confirm Password" type="password" />
+          <button class="btn orange">Register</button>
+          <button class="btn white" onclick="toggleAccount()">Sign In</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/account.js"></script>
+  </body>
+</html>
