@@ -13,3 +13,7 @@ body{
 .section1{
     height: 100vh;
 }
+#main-content{
+    margin: 10px 5px 5px 220px;
+    margin-top: 10px;
+}

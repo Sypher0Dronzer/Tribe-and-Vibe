@@ -12,3 +12,4 @@ var swiper = new Swiper(".mySwiper1", {
     clickable: true,
   },
 });
+

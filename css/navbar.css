@@ -11,6 +11,8 @@
    justify-content: space-between;
    flex-direction: column;
    align-items: center;
+   z-index: 100;
+   min-height: 550px !important;
 }
 .laptop-min{
     width: 60px;
@@ -23,7 +25,17 @@
     /* display: none; */
    padding: 10px 10px;
 }
-.laptop-min .nav-mid a,.laptop-min .nav-bottom a{
+/* -------------responsive navbar------------------ */
+@media (max-width:600px){
+    .laptop-min{
+        display: flex;
+    }
+    .laptop-max{
+        display: none;
+    }
+}
+/* -------------------------------------------------------- */
+.laptop-min .nav-mid a,.laptop-min .nav-bottom a,.laptop-min .nav-top a{
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
