@@ -10,13 +10,17 @@
   align-items: center;
   position: relative;
 }
-.mySwiper1 .swiper-slide .mask{
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-background: linear-gradient(90deg,rgba(0, 0, 0, 0.598),rgba(0, 0, 0, 0.034));
+.mySwiper1 .swiper-slide .mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.598),
+    rgba(0, 0, 0, 0.034)
+  );
 }
 
 .mySwiper1 .swiper-wrapper .swiper-slide .carosel-img {
@@ -25,13 +29,13 @@ background: linear-gradient(90deg,rgba(0, 0, 0, 0.598),rgba(0, 0, 0, 0.034));
   height: 100%;
   object-fit: cover;
 }
-.show-details{
+.show-details {
   position: absolute;
   left: 20px;
   max-width: 300px;
   text-align: left;
 }
-.show-details .btn{
+.show-details .btn {
   font-family: poppins;
   padding: 5px 10px;
   border-radius: 10px;
@@ -41,31 +45,31 @@ background: linear-gradient(90deg,rgba(0, 0, 0, 0.598),rgba(0, 0, 0, 0.034));
   justify-content: center;
   cursor: pointer;
 }
-.show-details img{
+.show-details img {
   width: 25px;
   margin-right: 5px;
 }
-.show-details p{
+.show-details p {
   font-size: 14px;
   line-height: 110%;
   display: flex;
   align-items: center;
   margin-top: 15px;
-}.show-details h1{
+}
+.show-details h1 {
   line-height: 110%;
 }
-.show-details .black-btn{
+.show-details .black-btn {
   background: black;
   color: white;
 }
-.show-details .black-btn:hover{
-
+.show-details .black-btn:hover {
   background: #00000076;
 }
-.show-details .white-btn:hover{
+.show-details .white-btn:hover {
   background: rgba(255, 255, 255, 0.568);
 }
-.show-details .btn-div{
+.show-details .btn-div {
   display: flex;
   gap: 8px;
   margin-top: 20px;
@@ -99,6 +103,3 @@ background: linear-gradient(90deg,rgba(0, 0, 0, 0.598),rgba(0, 0, 0, 0.034));
   justify-content: center;
   align-items: center;
 }
-
-
-

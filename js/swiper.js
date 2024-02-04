@@ -17,7 +17,7 @@ var swiper = new Swiper(".mySwiper1", {
 // ---------------swiper 2-----------------
 var swiper = new Swiper(".mySwiper2", {
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 10,
   autoplay: {
     delay: 2000,
@@ -28,10 +28,7 @@ var swiper = new Swiper(".mySwiper2", {
     clickable: true,
   },
   breakpoints: {
-    480: {
-      slidesPerView: 2,
-      spaceBetween:10,
-    },
+    
     796: {
       slidesPerView: 3,
       spaceBetween: 10,
@@ -49,7 +46,7 @@ var swiper = new Swiper(".mySwiper2", {
 // ---------------------------swiper3----------
 var swiper = new Swiper(".mySwiper3", {
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 10,
   autoplay: {
     delay: 3000,
@@ -59,11 +56,7 @@ var swiper = new Swiper(".mySwiper3", {
   pagination: {
     clickable: true,
   },
-  breakpoints: {
-    480: {
-      slidesPerView: 2,
-      spaceBetween:10,
-    },
+  breakpoints: {    
     796: {
       slidesPerView: 3,
       spaceBetween: 10,
