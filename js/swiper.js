@@ -2,10 +2,10 @@
 var swiper = new Swiper(".mySwiper1", {
   // effect: "fade",
   spaceBetween: 30,
-  mousewheel: true,
+  // mousewheel: true,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
+    delay: 3000,
     disableOnInteraction: false,
   },
   pagination: {
