@@ -10,8 +10,9 @@
     />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/imports.css" />
-    <link rel="stylesheet" href="css/swiper.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <div class="navbar laptop-min">
@@ -90,17 +91,82 @@
         <div class="swiper mySwiper1">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="images/homebg.png" alt="" srcset="" />
+              <img
+                class="carosel-img"
+                src="images/homebg.png"
+                alt=""
+                srcset=""
+              />
+              <div class="mask"></div>
+
+              <div class="show-details">
+                <h1>Name of Show</h1>
+                <p class="location">
+                  <img src="icons/Place Marker.png" alt="" />Kolkata
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit magnam error fuga consequuntur dolor at, quo
+                  voluptatum recusandae deserunt temporibus.
+                </p>
+                <div class="btn-div">
+                  <button class="btn black-btn">
+                    <img src="icons/Play.png" alt="" srcset="" /> Trailer
+                  </button>
+                  <button class="btn white-btn">
+                    <img src="icons/Sum.png" alt="" />Book
+                  </button>
+                </div>
+              </div>
             </div>
             <!-- <div class="swiper-slide">Slide 2</div> -->
           </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
+
+      <div class="section2">
+        <h1>Now Showing in Your District</h1>
+
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper now-show-div">
+            <div class="swiper-slide">
+              <div class="show-div">
+                <img src="images/homebg2.png" alt="" />
+                <div class="show-details">
+                  <h3>Show Name</h3>
+                  <button class="book-show">
+                    <img src="icons/Sum.png" alt="" />Book
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1>Popular in other districts</h1>
+
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper popular-show-div">
+            <div class="swiper-slide">
+              <div class="show-div">
+                <img src="images/homebg2.png" alt="" />
+                <div class="show-details">
+                  <h3>Show Name</h3>
+                  <button class="book-show">
+                    <img src="icons/Sum.png" alt="" />Book
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
+    <script src="js/shows.js"></script>
     <script src="js/nav.js"></script>
   </body>
 </html>

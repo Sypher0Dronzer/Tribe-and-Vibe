@@ -1,0 +1,14 @@
+/* -------------responsive navbar------------------ */
+@media (max-width:1000px){
+    .laptop-min{
+        display: flex;
+    }
+    .laptop-max{
+        display: none;
+    }
+    #main-content{
+        margin: 0px 5px 5px 75px;
+    }
+    
+}
+/* -------------------------------------------------------- */

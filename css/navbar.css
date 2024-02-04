@@ -25,16 +25,7 @@
     /* display: none; */
    padding: 10px 10px;
 }
-/* -------------responsive navbar------------------ */
-@media (max-width:600px){
-    .laptop-min{
-        display: flex;
-    }
-    .laptop-max{
-        display: none;
-    }
-}
-/* -------------------------------------------------------- */
+
 .laptop-min .nav-mid a,.laptop-min .nav-bottom a,.laptop-min .nav-top a{
     margin-bottom: 5px;
     display: flex;
