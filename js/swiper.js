@@ -70,3 +70,31 @@ var swiper = new Swiper(".mySwiper3", {
     },
   },
 });
+
+// ---------------------swiper4--------------
+var swiper = new Swiper(".mySwiper4", {
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 10,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+
+  pagination: {
+    clickable: true,
+  },
+  breakpoints: {    
+    796: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    830: {
+      slidesPerView:4,
+      spaceBetween: 10,
+    },1226: {
+      slidesPerView:5,
+      spaceBetween: 10,
+    },
+  },
+});

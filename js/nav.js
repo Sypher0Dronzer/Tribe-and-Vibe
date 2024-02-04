@@ -7,10 +7,13 @@ menuToggle.addEventListener('click',()=>{
 function toggleMenu(){
     if(!isDropMenu){
         navDropDown.style.transform='translateX(0%)';
-        isDropMenu=true
+        isDropMenu=true;
+        menuToggle.innerHTML=`<img src="icons/Multiply.png" alt="">`
+        
     }
     else{
         navDropDown.style.transform='translateX(120%)'
-        isDropMenu=false
+        isDropMenu=false;
+        menuToggle.innerHTML=`<img src="icons/Menu.png" alt="">`
     }
 }
