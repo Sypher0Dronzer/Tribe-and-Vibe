@@ -251,3 +251,6 @@ grid-template-columns: 1fr 1fr;
 .about-us .grid-2 .right p{
   font-size: 18px;
 }
+.about-us .grid-2 .left img{
+  mix-blend-mode: difference;
+}
