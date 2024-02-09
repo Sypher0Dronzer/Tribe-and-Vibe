@@ -8,6 +8,7 @@ svg path {
 
 svg {
     width: 500px;
+    max-height: 99vh;
 }
 
 svg path:hover {
@@ -16,12 +17,11 @@ svg path:hover {
     transition: fill 0.4s ease-in-out;
 }
 svg path:active{
-    fill: rgb(255, 183, 0);
+    fill: rgb(17, 0, 255);
 }
 
-a[xlink][title]:hover::after {
-    content: attr(title);
-    position: absolute;
-    background-color: rgb(255, 136, 0);
-    padding: 2px 50px !important;
+[data-district] path:hover{
+cursor: pointer;
+background: blue;
+fill: blue;
 }
