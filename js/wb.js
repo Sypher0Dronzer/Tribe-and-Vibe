@@ -6,6 +6,9 @@ window.addEventListener('mouseover',(e)=>{
 
         distNameDiv.innerHTML=distName
     }
+    else{
+        distNameDiv.innerHTML=''
+    }
 
 console.log(e.target.parentElement.dataset.district);
 })
