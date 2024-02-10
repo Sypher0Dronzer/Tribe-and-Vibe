@@ -4,6 +4,7 @@ body{
 svg path {
     fill: rgba(255, 0, 0, 0);
     stroke-width: 0.75px;
+    cursor: pointer;
 }
 
 svg {
@@ -20,8 +21,15 @@ svg path:active{
     fill: rgb(17, 0, 255);
 }
 
-[data-district] path:hover{
-cursor: pointer;
-background: blue;
-fill: blue;
+.districtName{
+    position:fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70px ;
+    width: 400px;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+
 }
