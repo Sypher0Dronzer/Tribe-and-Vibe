@@ -19,6 +19,13 @@ svg {
     width: 500px;
     max-height: 99vh;
 }
+@media (max-width:550px) {
+    svg{
+        max-width: 100vw;
+    height: auto;
+    }
+    
+}
 
 svg path:hover {
     fill: #e8860dec;
