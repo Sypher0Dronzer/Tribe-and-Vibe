@@ -1,125 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>District</title>
-    <link rel="stylesheet" href="css/imports.css">
-	<link rel="stylesheet" href="css/navbar.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/district.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="css/imports.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/district.css" />
+    <link rel="stylesheet" href="css/districtSwiper.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <div class="navbar laptop-min">
-        <div class="nav-top">
-          <a href="">
-            <img src="icons/Cat Footprint.png" alt="" />
-          </a>
-        </div>
-        <div class="nav-mid">
-          <a href="index.html">
-            <img src="icons/Home Page.png" alt="" />
-          </a>
-          <a href=""><img src="icons/Search.png" alt="" /></a>
-          <a href="./wb.html"><img src="icons/Compass.png" alt="" /></a>
-          <a href=""><img src="icons/Shopping Cart.png" alt="" /></a>
-          <a href=""><img src="icons/Theatre Mask.png" alt="" /></a>
-          <a href=""><img src="icons/Bracelet.png" alt="" /></a>
-          <a href=""><img src="icons/Info.png" alt="" /></a>
-        </div>
-        <div class="nav-bottom">
-          <a href="account.html">
-            <img src="icons/User.png" alt="" />
-          </a>
-          <a href="">
-            <img src="icons/Logout Rounded Left.png" alt="" />
-          </a>
-          
-        </div>
+      <div class="nav-top">
+        <a href="">
+          <img src="icons/Cat Footprint.png" alt="" />
+        </a>
       </div>
-  
-      <div class="navbar laptop-max">
-        <div class="nav-top">
-          <a href="">
-            <img src="icons/Cat Footprint.png" alt="" />
-            <h4>LOGO</h4>
-          </a>
-        </div>
-        <div class="nav-mid">
-          <a href="index.html">
-            <img src="icons/Home Page.png" alt="" />
-            <h4>Home</h4>
-          </a>
-          <a href=""
-            ><img src="icons/Search.png" alt="" />
-            <h4>Search</h4>
-          </a>
-          <a href="./wb.html"
-            ><img src="icons/Compass.png" alt="" />
-            <h4>Explore</h4>
-          </a>
-          <a href=""
-            ><img src="icons/Shopping Cart.png" alt="" />
-            <h4>Cart</h4>
-          </a>
-          <a href=""
-            ><img src="icons/Theatre Mask.png" alt="" />
-            <h4>Shows</h4>
-          </a>
-          <a href=""
-            ><img src="icons/Bracelet.png" alt="" />
-            <h4>Accessories</h4>
-          </a>
-          <a href="#abt-us"
-            ><img src="icons/Info.png" alt="" />
-            <h4>About Us</h4>
-          </a>
-        </div>
-        <div class="nav-bottom">
-          <a href="account.html">
-            <img src="icons/User.png" alt="" />
-            <h4>Profile</h4>
-          </a>
-          <a href="">
-            <img src="icons/Logout Rounded Left.png" alt="" />
-            <h4>Exit</h4>
-          </a>
-        </div>
+      <div class="nav-mid">
+        <a href="index.html">
+          <img src="icons/Home Page.png" alt="" />
+        </a>
+        <a href=""><img src="icons/Search.png" alt="" /></a>
+        <a href="./wb.html"><img src="icons/Compass.png" alt="" /></a>
+        <a href=""><img src="icons/Shopping Cart.png" alt="" /></a>
+        <a href=""><img src="icons/Theatre Mask.png" alt="" /></a>
+        <a href=""><img src="icons/Bracelet.png" alt="" /></a>
+        <a href=""><img src="icons/Info.png" alt="" /></a>
       </div>
-      <div class="mobile-nav">
-        <a href=""><img src="icons/Cat Footprint.png" alt="" srcset=""></a>
-        <div class="menu-toggle">
-          <img src="icons/Menu.png" alt="">
+      <div class="nav-bottom">
+        <a href="account.html">
+          <img src="icons/User.png" alt="" />
+        </a>
+        <a href="">
+          <img src="icons/Logout Rounded Left.png" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <div class="navbar laptop-max">
+      <div class="nav-top">
+        <a href="">
+          <img src="icons/Cat Footprint.png" alt="" />
+          <h4>LOGO</h4>
+        </a>
+      </div>
+      <div class="nav-mid">
+        <a href="index.html">
+          <img src="icons/Home Page.png" alt="" />
+          <h4>Home</h4>
+        </a>
+        <a href=""
+          ><img src="icons/Search.png" alt="" />
+          <h4>Search</h4>
+        </a>
+        <a href="./wb.html"
+          ><img src="icons/Compass.png" alt="" />
+          <h4>Explore</h4>
+        </a>
+        <a href=""
+          ><img src="icons/Shopping Cart.png" alt="" />
+          <h4>Cart</h4>
+        </a>
+        <a href=""
+          ><img src="icons/Theatre Mask.png" alt="" />
+          <h4>Shows</h4>
+        </a>
+        <a href=""
+          ><img src="icons/Bracelet.png" alt="" />
+          <h4>Accessories</h4>
+        </a>
+        <a href="#abt-us"
+          ><img src="icons/Info.png" alt="" />
+          <h4>About Us</h4>
+        </a>
+      </div>
+      <div class="nav-bottom">
+        <a href="account.html">
+          <img src="icons/User.png" alt="" />
+          <h4>Profile</h4>
+        </a>
+        <a href="">
+          <img src="icons/Logout Rounded Left.png" alt="" />
+          <h4>Exit</h4>
+        </a>
+      </div>
+    </div>
+    <div class="mobile-nav">
+      <a href=""><img src="icons/Cat Footprint.png" alt="" srcset="" /></a>
+      <div class="menu-toggle">
+        <img src="icons/Menu.png" alt="" />
+      </div>
+    </div>
+
+    <div id="main-content">
+      <div class="header">
+        <img src="images/darjeeling.jpg" alt="" />
+        <div class="intro">
+          <h1>Darjeeling</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, sapiente, error impedit voluptas, excepturi obcaecati
+            dolorem expedita corporis qui possimus rem. Nisi voluptatem alias
+            perspiciatis.
+          </p>
         </div>
       </div>
 
-      <div id="main-content">
-        <div class="header">
-            <img src="images/darjeeling.jpg" alt="">
-            <h1>Darjeeling</h1>
+      <!-- ------------images slider----- -->
+      <div class="swiper mySwiper5">
+        <div class="swiper-wrapper slide1">
+          <div class="swiper-slide">
+            <img src="images/ornament1.png" alt="" />
+          </div>
         </div>
-        <div class="tribe-details">
-            <div class="tribe-grid">
-                <div class="left">
-            <h2>Lepcha</h2>
-            <h4>Folk Dance : Chu-Faat</h4>
-            <p>Literal meaning of Chu is Snowy Range, while that of Faat is Worship.This group folk dance is performed in the honour of Mount Khangchendzonga, the guardian deity of the Sikkimese people. The dancers while carrying butter lamps and green bamboo leaves perform a ritualistic dance by singing devotional songs.</p>
-            <a href="">
-                <button>Watch</button>
-            </a>
+      </div>
 
-                </div>
-                <div class="right">
-                    <img src="images/lepchas.jpg" alt="">
-                </div>
+      <!-- --------------video----------------- -->
+      <div class="video">
+        <video src="Videos/darjeeling video.mp4" autoplay muted loop></video>
+      </div>
+
+      <!-- ------------------Art and crafts------------------ -->
+      <div class="art-crafts">
+        <h1>Art and Crafts</h1>
+        <div class="swiper mySwiper6">
+          <div class="swiper-wrapper slide2">
+            <div class="swiper-slide">
+              <img src="images/ornament1.png" alt="" />
             </div>
-
-
+            <div class="swiper-slide">
+              <img src="images/ornament1.png" alt="" />
+            </div>
+          </div>
         </div>
-
       </div>
-    
-</body>
+      <!-- ------------------Dance and music------------------ -->
+      <div class="dance-music-festivals">
+        <h1>Dance and Festivals</h1>
+        <div class="swiper mySwiper7">
+          <div class="swiper-wrapper slide3">
+            <div class="swiper-slide">
+              <img src="images/ornament1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/ornament1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of main content -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/districtslides.js"></script>
+    <script src="js/districtSwipers.js"></script>
+  </body>
 </html>
