@@ -82,3 +82,13 @@ var swiper = new Swiper(".mySwiper7", {
     },
   });
   
+  // -----------swiper7---------------
+  var swiper7 = new Swiper(".mySwiper7", {
+    spaceBetween: 30,
+    effect: "fade",
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

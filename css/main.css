@@ -6,11 +6,15 @@
   transition: all 0.3 ease-in-out;
   border: none;
 }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 40px;
+}
 button{
   font-weight: 500;
 }
 body {
-  scroll-behavior: smooth;
   background: black;
   color: white;
   font-family: poppins;

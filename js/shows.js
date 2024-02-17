@@ -59,13 +59,3 @@ nowShowing.innerHTML = nowShowHTML;
 popularShowing.innerHTML=popularShowHTML;
 acessories.innerHTML=acessoriesHTML;
 
-let traditionalPics = document.querySelector(".traditional-pics");
-let traditionalPicsHTML='``';
-// ------------------------------traditional pics----------------------
-for (let i = 0; i < 7; i++) {
-  traditionalPicsHTML+=`
-  <div class="swiper-slide">
-  <img src="images/ornament1.png" alt="">
-  </div>`    
-}
-traditionalPics.innerHTML=traditionalPicsHTML;

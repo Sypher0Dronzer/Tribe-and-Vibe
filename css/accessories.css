@@ -1,0 +1,60 @@
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.product-card{
+    max-width: 220px;
+    box-shadow: rgba(255, 255, 255, 0.546) 0px 7px 29px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+@media (max-width:600px){
+    .flex-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1{
+        font-size: 30px;
+    }
+    
+}
+.product-card .img-div {
+    height:220px;
+    overflow: hidden;
+}
+.product-card .img-div img{
+    width: 100%;
+    
+}
+.product-card .nameNprice{
+    margin: 8px 0;
+    text-align: center;
+}
+.button-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+button{
+    font-family: poppins;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.514);
+    color: white;
+  }
