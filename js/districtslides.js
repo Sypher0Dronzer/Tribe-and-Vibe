@@ -42,3 +42,41 @@ for (let i = 0; i < 7; i++) {
     </div>`    
   }
 districtSlides3.innerHTML=slide3HTML;
+
+// ----------------slide4---------------
+let slide4=document.querySelector('.slide4')
+let slide4HTML=``;
+
+for (let i = 0; i < 7; i++) {
+  slide4HTML+=`
+  <div class="swiper-slide">
+              <div class="imgdiv">
+                <img src="images/lepchas.jpg" alt="">
+              </div>
+              
+              <div class="tribe-details">
+                <h2>Tribe Name</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus fugit dolor nostrum veniam maxime sapiente enim officiis temporibus minus molestias, cumque, iste earum consectetur.</p>
+              </div>
+            </div>`    
+}
+slide4.innerHTML=slide4HTML;
+
+// ----------------slide5---------------
+let slide5=document.querySelector('.slide5')
+let slide5HTML=``;
+
+for (let i = 0; i < 7; i++) {
+  slide5HTML+=`
+  <div class="swiper-slide">
+              <div class="imgdiv">
+                <img src="./images/darjeeling/heritage1.jpg"" alt="">
+              </div>
+              
+              <div class="tribe-details">
+                <h2>Heritage Site Name</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus fugit dolor nostrum veniam maxime sapiente enim officiis temporibus minus molestias, cumque, iste earum consectetur.</p>
+              </div>
+            </div>`    
+}
+slide5.innerHTML=slide5HTML;

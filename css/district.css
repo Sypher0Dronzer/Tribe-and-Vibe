@@ -1,3 +1,4 @@
+
 #main-content .header{
     height: 70vh;
     display: flex;
@@ -60,6 +61,11 @@
     width: 100%;
     object-fit: contain;
 }
+
+/* -------------------------tribe slides------ */
+.tribe-slide{
+    margin-top: 20px;
+}
 /* --------------------art crafts-------------------- */
 .art-crafts, .dance-music-festivals{
     margin-top: 20px;
@@ -67,4 +73,8 @@
 .art-crafts h1, .dance-music-festivals h1{
     font-size: 25px;
     text-align: center;
+}
+
+.heritage-slide{
+    margin: 20px 0;
 }

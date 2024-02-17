@@ -82,13 +82,32 @@ var swiper = new Swiper(".mySwiper7", {
     },
   });
   
-  // -----------swiper7---------------
-  var swiper7 = new Swiper(".mySwiper7", {
+  // -----------swiper8---------------
+  var swiper8 = new Swiper(".mySwiper8", {
+    loop:true,
     spaceBetween: 30,
-    effect: "fade",
-
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+      dynamicBullets: true,
+    },
+  });
+
+  // ----------swiper9------------
+  var swiper8 = new Swiper(".mySwiper9", {
+    loop:true,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
     },
   });

@@ -15,13 +15,17 @@ button{
   font-weight: 500;
 }
 body {
-  background: black;
   color: white;
   font-family: poppins;
   overflow-x: hidden;
   scroll-padding-top: 45px;
+  background: black;
+    /* ----------------------------------bg------------------- */
 
+  /* background: linear-gradient(220.3deg, rgb(95, 5, 5) 10.6%, rgb(123, 2, 2) 97.7%); */
 }
+
+
 .section1 {
   height: 70vh;
 }
@@ -245,6 +249,7 @@ grid-template-columns: 1fr 1fr;
 position: relative;
 z-index: -2;
 border-radius: 15px;
+overflow: hidden;
 
 }
 .about-us .grid-2::after{
